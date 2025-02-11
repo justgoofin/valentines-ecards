@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+.envelope {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f5d0a9;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    padding: 20px;
+    background-color: #ffcc80; /* Lighter than Charizard's orange */
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+}
+
+.charizard-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 18px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    color: #d24d11;
+}
+
+.from-to {
+    font-size: 14px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #d24d11;
+}
+
+.flap {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: #f5d0a9;
+    border-radius: 10px 10px 0 0;
+}
