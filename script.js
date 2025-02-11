@@ -1,5 +1,5 @@
 // script.js
-document.getElementById('open-btn').addEventListener('click', function() {
+document.getElementById('envelope').addEventListener('click', function() {
     const flap = document.getElementById('flap');
     const envelopeBody = document.querySelector('.envelope-body');
 
