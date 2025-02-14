@@ -25,15 +25,16 @@ body {
     width: 0;
     height: 0;
     position: absolute;
+    background-color: transparent;
+    border: none;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-color: #FFDD99;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 100px solid #FFDD99;
     transform-origin: top center; 
     transition: transform 0.5s ease;
     top: 0;
     z-index: 2;
 }
+
 
 
 .envelope-body {
