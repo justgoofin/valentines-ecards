@@ -27,7 +27,7 @@ body {
     position: absolute;
     border: none;
     clip-path: polygon(50% 50%, 0% 0%, 100% 0%);
-    background-color: #FFDD98;
+    background-color: #DDDD99;
     transform-origin: top center; 
     transition: transform 0.5s ease;
     top: 0;
