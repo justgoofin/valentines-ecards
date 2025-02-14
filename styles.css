@@ -22,12 +22,12 @@ body {
 }
 
 .flap {
-    width: 95%;
+    width: 100%;
     height: 100%;
-    position: relative;
-    border: 2px solid #e1a76b;
+    position: absolute;
+    border: none;
     clip-path: polygon(50% 50%, 0% 0%, 100% 0%);
-    background-color: #FFDD99;
+    background-color: #FFDD98;
     transform-origin: top center; 
     transition: transform 0.5s ease;
     top: 0;
