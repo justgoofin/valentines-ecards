@@ -26,8 +26,8 @@ body {
     width: 100%;
     height: 100px;  /* Set height of the flap */
     background-color: #FFDD99;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
+    border-left: 150px solid #e1a76b;
+    border-right: 150px solid #e1a76b;
     border-bottom: 100px solid #FFDD99;  /* Bottom triangle color */
     transform-origin: top center;  /* Rotate around the top edge */
     transition: transform 0.5s ease;
