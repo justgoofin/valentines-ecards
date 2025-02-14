@@ -25,7 +25,6 @@ body {
     width: 0;
     height: 0;
     position: absolute;
-    background-color: transparent;
     border: none;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-color: #FFDD99;
