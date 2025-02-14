@@ -28,8 +28,8 @@ body {
     background-color: #FFDD99;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
-    border-bottom: 100px solid #FFDD99;  /* Bottom triangle color */
-    transform-origin: top center;  /* Rotate around the top edge */
+    border-bottom: 100px solid #FFDD99;
+    transform-origin: top center; 
     transition: transform 0.5s ease;
     top: 0;
     z-index: 2;
@@ -37,14 +37,14 @@ body {
 
 
 .envelope-body {
-    display: none;  /* Initially hide the ecard image */
+    display: none;  
     padding: 0;
     position: absolute;
     top: 25%;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('ecard.png');  /* Set the image background */
+    background-image: url('ecard.png');  
     background-size: cover;
     background-position: center;
 }
