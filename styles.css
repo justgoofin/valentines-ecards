@@ -24,9 +24,9 @@ body {
 .flap {
     position: absolute;
     background-color: #FFDD99;
-    border-left: 150px solid #e1a76b;
-    border-right: 150px solid #e1a76b;
-    border-bottom: 100px solid #e1a76b;  /* Bottom triangle color */
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid #FFDD99;  /* Bottom triangle color */
     transform-origin: top center;  /* Rotate around the top edge */
     transition: transform 0.5s ease;
     top: 0;
